@@ -2,33 +2,51 @@
 <html>
 
 <head>
-  <title>Freeze Store</title>
+  <title>Trang web với ảnh mô hình 3D và nội dung</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/png" href="logo.png">
 </head>
 
 <body class="dark-theme">
   <div class="container">
-    <div class="model-container">
-      <img src="model.jpg" alt="Model 3D">
+
+    <!--header-->
+    <div class="header">
+      <ul class="header-list">
+        <li class="header-item">
+          <div class="logo">
+            <img src="logo.png" alt="Logo">
+          </div>
+        </li>
+        <li class="header-item">Home</li>
+        <li class="header-item">Features</li>
+        <li class="header-item">Join Discord</li> 
+      </ul>
+      <button class="toggle-theme" onclick="toggleTheme()">Chuyển đổi giao diện</button>
     </div>
-    <div class="content">
-      <h1>Hi xin chào, chúng mình là Freeze Store</h1>
-      <h2>Chúng mình biết bạn không đủ thời gian để đọc, nhưng xin hãy đọc :")</h2>
-      <h3>Thì tụi mình mở shop , do chưa có đủ khả năng để làm shop hoàn chỉnh nên các bạn muốn mua 
-        thì hãy bấm vào nút bên dưới nhé !! </h3>
-      <div class="link-container">
-        <a id="site-link" href="https://discord.gg/YTDxMhTw8P" class="redirect-button">Bấm vào đi mà :(
-          </a>
-      </div>
-      <div class="logo">
-        <img src="logo.png" alt="Logo">
+    <!-- end header-->
+    <section class="section">
+      <div class="model-container">
+        <img src="model.jpg" alt="Model 3D">
       </div>
 
-    </div>
+      <div class="content">
+        <h1>Hi xin chào, chúng mình là Freeze Store</h1>
+        <h2>Chúng mình biết bạn không đủ thời gian để đọc, nhưng xin hãy đọc :")</h2>
+        <h3>Thì tụi mình mở shop , do chưa có đủ khả năng để làm shop hoàn chỉnh nên các bạn muốn mua
+          thì hãy bấm vào nút bên dưới nhé !! </h3>
+        <div class="link-container">
+          <a id="site-link" href="https://discord.gg/YTDxMhTw8P" class="redirect-button">Bấm vào đi mà :(
+          </a>
+        </div>
+    </section>
+
+
+
+  </div>
   </div>
 
-  <button class="toggle-theme" onclick="toggleTheme()">Chuyển đổi giao diện</button>
+
 
   <div class="discord-icon-container">
     <a href="https://discord.gg/YTDxMhTw8P" target="_blank" class="discord-icon-link">
