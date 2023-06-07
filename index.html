@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Chuyển hướng trang web</title>
+  <title>Trang web với ảnh mô hình 3D và nội dung</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/png" href="logo.png">
-  <style>
-    body {
-      font-family: sans-serif;
-      background-color: #f2f2f2;
-      transition: background-color 0.3s;
-    }
-
-    .toggle-theme {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-    }
-  </style>
 </head>
-<body>
+
+<body class="dark-theme">
   <div class="container">
-    <h1>Hi xin chào, chúng mình là Freeze Store</h1>
-    <h2>Chúng mình biết bạn không đủ thời gian để đọc, nhưng xin hãy đọc :")</h2>
-    <h3>Do chúng tôi có hai website, website này chỉ để nhắn nhủ các bạn một số điều thôi, còn nếu muốn đến Freeze Store hãy bấm vào nút bên dưới nhé !!</h3>
-    <div class="logo">
-      <img src="logo.png" alt="Logo">
+    <div class="model-container">
+      <img src="model.jpg" alt="Model 3D">
     </div>
-    <a href="https://freezestore.my.canva.site" class="redirect-button">Bấm vào đi mà :(</a>
+    <div class="content">
+      <h1>Hi xin chào, chúng mình là Freeze Store</h1>
+      <h2>Chúng mình biết bạn không đủ thời gian để đọc, nhưng xin hãy đọc :")</h2>
+      <h3>Thì tụi mình mở shop , do chưa có đủ khả năng để làm shop hoàn chỉnh nên các bạn muốn mua 
+        thì hãy bấm vào nút bên dưới nhé !! </h3>
+      <div class="link-container">
+        <a id="site-link" href="https://discord.gg/YTDxMhTw8P" class="redirect-button">Bấm vào đi mà :(
+          </a>
+      </div>
+      <div class="logo">
+        <img src="logo.png" alt="Logo">
+      </div>
+
+    </div>
   </div>
 
   <button class="toggle-theme" onclick="toggleTheme()">Chuyển đổi giao diện</button>
 
+  <div class="discord-icon-container">
+    <a href="https://discord.gg/YTDxMhTw8P" target="_blank" class="discord-icon-link">
+      <img src="discord-icon.png" alt="Discord Icon" class="discord-icon">
+      <span class="discord-icon-text">Freeze Store Discord</span>
+    </a>
+  </div>
+
   <script src="script.js"></script>
 </body>
+
 </html>
